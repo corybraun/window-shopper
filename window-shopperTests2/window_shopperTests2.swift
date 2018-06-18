@@ -1,15 +1,14 @@
 //
-//  window_shopperTests.swift
-//  window-shopperTests
+//  window_shopperTests2.swift
+//  window-shopperTests2
 //
-//  Created by Cory Braun on 6/16/18.
+//  Created by Cory Braun on 6/17/18.
 //  Copyright © 2018 Cory Braun. All rights reserved.
 //
 
 import XCTest
-@testable import window_shopper
 
-class window_shopperTests: XCTestCase {
+class window_shopperTests2: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -24,10 +23,6 @@ class window_shopperTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    func testGetHours() {
-    XCTAssert(Wage.getHours(forWage: 25, andPrice: 100) == 4)
-        XCTAssert(Wage.getHours(forWage: 15.50, andPrice: 250.53) == 17)
     }
     
     func testPerformanceExample() {
